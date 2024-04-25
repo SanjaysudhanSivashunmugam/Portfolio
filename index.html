@@ -16,7 +16,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary py-4 text-uppercase border-bottom border-light-subtle sticky-top">
+    <nav
+        class="navbar navbar-expand-lg bg-body-tertiary py-4 text-uppercase border-bottom border-light-subtle sticky-top">
         <div class="container">
             <a class="navbar-brand fs-3" href="#">Sanjaysudhan</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -51,8 +52,9 @@
                         <h1 class="pb-3">hi my name is Sanjaysudhan s</h1>
                         <h4 class="pb-4">I am a Webdevelopment intern at Cognifyz Technologies, I have skills on java |
                             Html | css | javascript | jQurey | bootstrap | python | dsa |</h4>
-                        <a href="https://wa.me/+917708598488" class="btn btn-lg btn-dark text-uppercase" target="_blank">Connect with me</a>
-                        
+                        <a href="https://wa.me/+917708598488" class="btn btn-lg btn-dark text-uppercase"
+                            target="_blank">Connect with me</a>
+
 
                     </div>
                 </div>
@@ -93,8 +95,8 @@
                         <img src="/images/html.jpg" class="card-img-top w-50 m-auto pt-4" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">HtML</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">HTML is the fundamental language used to structure content on the web,
+                                enabling the creation of visually engaging and interactive websites.</p>
 
                         </div>
                     </div>
@@ -104,8 +106,9 @@
                         <img src="/images/css.png" class="card-img-top w-50 m-auto pt-4" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">CSS</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">CSS is a stylesheet language used to control
+                                the presentation, formatting, and layout of HTML documents, making web pages
+                                aesthetically pleasing and functionally sophisticated.</p>
 
                         </div>
                     </div>
@@ -115,8 +118,9 @@
                         <img src="/images/js.png" class="card-img-top w-50 m-auto pt-4" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">JAVASCRIPT</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">JavaScript is a powerful scripting language that adds interactivity,
+                                dynamic effects, and complex functionalities to websites, transforming static pages into
+                                engaging user experiences.</p>
 
                         </div>
                     </div>
@@ -126,8 +130,9 @@
                         <img src="/images/java.jpg" class="card-img-top w-50 m-auto pt-4" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">JAVA</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">Java is a versatile and robust programming language widely used for
+                                building cross-platform applications, from mobile and desktop applications to
+                                large-scale enterprise systems.</p>
 
                         </div>
                     </div>
@@ -142,33 +147,29 @@
                     <h4 class="text-center pb-4">Contact</h4>
                 </div>
             </div>
-            <div class="row justify-content-center" >
+            <div class="row justify-content-center">
                 <div class="col-md-7">
-                    <form>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="a381985b-7796-4a3a-9973-d4a01c7f7a82">
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
+                            <label for="inputName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="inputName" name="name" aria-describedby="nameHelp" placeholder="Enter your name" required>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Mobile </label>
-                            <input type="number" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                            
+                            <label for="inputMobile" class="form-label">Mobile</label>
+                            <input type="number" class="form-control" id="inputMobile" name="mobile" aria-describedby="mobileHelp" placeholder="Enter your mobile number">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                            
+                            <label for="inputEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="inputEmail" name="email" aria-describedby="emailHelp" placeholder="Enter your email" required>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Enter Your Message Here</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                          </div>
-                    
+                            <label for="inputMessage" class="form-label" required>Enter Your Message Here</label>
+                            <textarea class="form-control" id="inputMessage" name="message" rows="3" placeholder="Type your message here"></textarea>
+                        </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
+                    
                 </div>
             </div>
         </div>
